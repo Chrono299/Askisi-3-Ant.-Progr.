@@ -1,0 +1,55 @@
+import java.util.Scanner;
+public class homeAppliancesStore {
+    static String cName;
+    static String cAddress;
+    static int cEmp;
+
+    public void setName(String cName) {
+        this.cName = cName;
+    }
+    public String getName() {
+        return cName;
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println("Dwse to onoma ths etairias: ");
+        Scanner cName = new Scanner (System.in);
+
+
+        System.out.println("Dwse th dieuthinsh ths etairias: ");
+        Scanner cAddress = new Scanner (System.in);
+
+
+        System.out.println("Dwse ton arithmo twn upallilwn: ");
+        Scanner cEmp = new Scanner (System.in);
+
+
+        try {
+            a.setname(args[0]);
+            System.out.print(a.getname());
+
+        } catch (Exception e) {
+           System.out.println("error");
+        }
+
+
+        /*System.out.println(compName.nextLine());
+        System.out.println(compAddress.nextLine());
+        System.out.println(compEmp.nextLine());*/
+
+        /*if (compName == null){
+            System.out.println("h timh den einai egkirh");
+        }
+
+        if (compAddress == null){
+            System.out.println("h timh den einai egkirh");
+        }
+
+        if (compAddress == null){
+            System.out.println("h timh den einai egkirh");
+        }*/
+
+    }
+
+}
